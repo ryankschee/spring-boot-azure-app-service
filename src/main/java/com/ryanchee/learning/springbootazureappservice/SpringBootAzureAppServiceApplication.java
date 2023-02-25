@@ -22,4 +22,9 @@ public class SpringBootAzureAppServiceApplication {
 	public String hello() {
 		return "Hello Azure App Service!";
 	}
+
+	@GetMapping("/hello2")
+	public String hello2() {
+		return "Hello Azure App Service 2!";
+	}
 }
